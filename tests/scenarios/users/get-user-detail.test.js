@@ -1,5 +1,5 @@
 import * as chai from "chai";
-import UserAPI from "../users/users.api.js";
+import UserAPI from "../../pages/users/users.api.js";
 import * as data from "../../data/users/get-user-detail.data.js";
 import jsonSchema from "chai-json-schema";
 import * as schema from "../../schema/users/get-user-detail.schema.js";
